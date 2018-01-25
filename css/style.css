@@ -91,103 +91,103 @@ footer {
 
 .mail {
   display: inline-block;
-  background: url(file:///Users/emyuu/reen/img/header/icon-mail-off.png)no-repeat;
+  background: url(../img/header/icon-mail-off.png)no-repeat;
 }
 
 .mail a {
-  background: url(file:///Users/emyuu/reen/img/header/icon-mail-off.png)no-repeat;
+  background: url(../img/header/icon-mail-off.png)no-repeat;
 }
 
 .mail a:hover {
-  background-image: url(file:///Users/emyuu/reen/img/header/icon-mail-on.png);
+  background-image: url(../img/header/icon-mail-on.png);
 }
 
 .phone {
   display: inline-block;
-  background: url(file:///Users/emyuu/reen/img/header/icon-tel-off.png)no-repeat;
+  background: url(../img/header/icon-tel-off.png)no-repeat;
 }
 
 .phone a {
-  background: url(file:///Users/emyuu/reen/img/header/icon-tel-off.png)no-repeat;
+  background: url(../img/header/icon-tel-off.png)no-repeat;
 }
 
 .phone a:hover {
-  background-image: url(file:///Users/emyuu/reen/img/header/icon-tel-on.png);
+  background-image: url(../img/header/icon-tel-on.png);
 }
 
 .facebook {
-  background-image: url(file:///Users/emyuu/reen/img/header/icon-facebook-off.png);
+  background-image: url(../img/header/icon-facebook-off.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .facebook:hover {
-  background-image: url(file:///Users/emyuu/reen/img/header/icon-facebook-on.png);
+  background-image: url(../img/header/icon-facebook-on.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #4668b3;
 }
 
 .google {
-  background: url(file:///Users/emyuu/reen/img/header/icon-google-off.png);
+  background: url(../img/header/icon-google-off.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .google:hover {
-  background-image: url(file:///Users/emyuu/reen/img/header/icon-google-on.png);
+  background-image: url(../img/header/icon-google-on.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #de5745;
 }
 
 .twitter {
-  background: url(file:///Users/emyuu/reen/img/header/icon-twitter-off.png);
+  background: url(../img/header/icon-twitter-off.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .twitter:hover {
-  background-image: url(file:///Users/emyuu/reen/img/header/icon-twitter-on.png);
+  background-image: url(../img/header/icon-twitter-on.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #2fbbed;
 }
 
 .pint {
-  background: url(file:///Users/emyuu/reen/img/header/icon-pinterest-off.png);
+  background: url(../img/header/icon-pinterest-off.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .pint:hover {
-  background-image: url(file:///Users/emyuu/reen/img/header/icon-pinterest-on.png);
+  background-image: url(../img/header/icon-pinterest-on.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #d94348;
 }
 
 .behance {
-  background: url(file:///Users/emyuu/reen/img/header/icon-behance-off.png);
+  background: url(../img/header/icon-behance-off.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .behance:hover {
-  background-image: url(file:///Users/emyuu/reen/img/header/icon-behance-on.png);
+  background-image: url(../img/header/icon-behance-on.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #3079ff;
 }
 
 .dribbble {
-  background: url(file:///Users/emyuu/reen/img/header/icon-dribbble-off.png);
+  background: url(../img/header/icon-dribbble-off.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .dribbble:hover {
-  background-image: url(file:///Users/emyuu/reen/img/header/icon-dribbble-on.png);
+  background-image: url(../img/header/icon-dribbble-on.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #eb6397;
@@ -260,7 +260,7 @@ footer {
 .main-img {
   width: 100%;
   height: 880px;
-  background-image: url(file:///Users/emyuu/reen/img/main/keyvisual.jpg);
+  background-image: url(../img/main/keyvisual.jpg);
 }
 
 .main-box {
@@ -549,41 +549,41 @@ footer {
 
 .footer-map {
   float: left;
-  background: url(file:///Users/emyuu/reen/img/footer/icon-address-off.png)no-repeat;
+  background: url(../img/footer/icon-address-off.png)no-repeat;
 }
 
 .footer-map a {
-  background: url(file:///Users/emyuu/reen/img/footer/icon-address-off.png)no-repeat;
+  background: url(../img/footer/icon-address-off.png)no-repeat;
 }
 
 .footer-map a:hover {
-  background: url(file:///Users/emyuu/reen/img/footer/icon-address-on.png);
+  background: url(../img/footer/icon-address-on.png);
 }
 
 .footer-tel {
   float: left;
-  background: url(file:///Users/emyuu/reen/img/footer/icon-tel-off.png)no-repeat;
+  background: url(../img/footer/icon-tel-off.png)no-repeat;
 }
 
 .footer-tel a {
-  background: url(file:///Users/emyuu/reen/img/footer/icon-tel-off.png)no-repeat;
+  background: url(../img/footer/icon-tel-off.png)no-repeat;
 }
 
 .footer-tel a:hover {
-  background: url(file:///Users/emyuu/reen/img/footer/icon-tel-on.png);
+  background: url(../img/footer/icon-tel-on.png);
 }
 
 .footer-mail {
   float: left;
-  background: url(file:///Users/emyuu/reen/img/footer/icon-mail-off.png)no-repeat;
+  background: url(../img/footer/icon-mail-off.png)no-repeat;
 }
 
 .footer-mail a {
-  background: url(file:///Users/emyuu/reen/img/footer/icon-mail-off.png)no-repeat;
+  background: url(../img/footer/icon-mail-off.png)no-repeat;
 }
 
 .footer-mail a:hover {
-  background: url(file:///Users/emyuu/reen/img/footer/icon-mail-on.png);
+  background: url(../img/footer/icon-mail-on.png);
 }
 
 .footer-access-text {
