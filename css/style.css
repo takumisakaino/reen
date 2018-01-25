@@ -1,0 +1,683 @@
+.wrapper {
+  width: 1920px;
+}
+
+header {
+  width: 100%;
+  height: 40px;
+  background: #f5f7fa;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  font-size: 15px;
+}
+
+main {
+  width: 100%;
+  height: 880px;
+  background-color: #354859;
+}
+
+section {
+  width: 100%;
+  background-color: #fff;
+}
+
+figure {
+  width: 100%;
+  background-color: #f5f7fa;;
+}
+
+article {
+  width: 100%;
+  background-color: #fff;
+}
+
+footer {
+  width: 100%;
+  height: 459px;
+  background-color: #354859;
+}
+
+.inner-box {
+  width: 1170px;
+}
+
+.header-box {
+  background-color: #f5f7fa;
+}
+
+.header-box-left {
+  padding: 12px 0;
+  box-sizing: border-box;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.header-text {
+  font-size: 12px;
+  color: #506a85;
+  display: inline-block;
+  padding: 0 26px 0 0;
+}
+
+.header-icon-left {
+  width: 12px;
+  height: 12px;
+  display: block;
+}
+
+.header-icon-right {
+  width: 40px;
+  height: 40px;
+}
+
+.header-icon-posi {
+  padding: 14.5px 17px;
+  box-sizing: border-box;
+}
+
+.mail {
+  display: inline-block;
+  background: url(file:///Users/emyuu/reen/img/header/icon-mail-off.png)no-repeat;
+}
+
+.mail a {
+  background: url(file:///Users/emyuu/reen/img/header/icon-mail-off.png)no-repeat;
+}
+
+.mail a:hover {
+  background-image: url(file:///Users/emyuu/reen/img/header/icon-mail-on.png);
+}
+
+.phone {
+  display: inline-block;
+  background: url(file:///Users/emyuu/reen/img/header/icon-tel-off.png)no-repeat;
+}
+
+.phone a {
+  background: url(file:///Users/emyuu/reen/img/header/icon-tel-off.png)no-repeat;
+}
+
+.phone a:hover {
+  background-image: url(file:///Users/emyuu/reen/img/header/icon-tel-on.png);
+}
+
+.facebook {
+  background-image: url(file:///Users/emyuu/reen/img/header/icon-facebook-off.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.facebook:hover {
+  background-image: url(file:///Users/emyuu/reen/img/header/icon-facebook-on.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #4668b3;
+}
+
+.google {
+  background: url(file:///Users/emyuu/reen/img/header/icon-google-off.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.google:hover {
+  background-image: url(file:///Users/emyuu/reen/img/header/icon-google-on.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #de5745;
+}
+
+.twitter {
+  background: url(file:///Users/emyuu/reen/img/header/icon-twitter-off.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.twitter:hover {
+  background-image: url(file:///Users/emyuu/reen/img/header/icon-twitter-on.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #2fbbed;
+}
+
+.pint {
+  background: url(file:///Users/emyuu/reen/img/header/icon-pinterest-off.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pint:hover {
+  background-image: url(file:///Users/emyuu/reen/img/header/icon-pinterest-on.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #d94348;
+}
+
+.behance {
+  background: url(file:///Users/emyuu/reen/img/header/icon-behance-off.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.behance:hover {
+  background-image: url(file:///Users/emyuu/reen/img/header/icon-behance-on.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #3079ff;
+}
+
+.dribbble {
+  background: url(file:///Users/emyuu/reen/img/header/icon-dribbble-off.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dribbble:hover {
+  background-image: url(file:///Users/emyuu/reen/img/header/icon-dribbble-on.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #eb6397;
+}
+
+.clearfix::before,
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.header-text:hover {
+  color: #00bc9c;
+}
+
+/*ここから nav */
+
+.nav-center {
+  width: 760px;
+  height: 100px;
+  display: table;
+  margin-right: 205px;
+}
+
+.nav-img {
+  padding: 30px 0;
+  box-sizing: border-box;
+}
+
+.home {
+  width: 46px;
+}
+
+.pratfolio {
+  width: 84px;
+}
+
+.blog {
+  width: 40px;
+}
+
+.features {
+  width: 73px;
+}
+
+.megamenu {
+  width: 89px;
+}
+
+.contact {
+  width: 71px;
+}
+
+.nav-text {
+  height: 100px;
+  color: #506a85;
+  font-size: 15px;
+  padding: 42.5px 22px;
+  box-sizing: border-box;
+  display: table-cell;
+}
+
+.nav-text:hover {
+  color: #00bc9c;
+}
+
+/*ここからmain*/
+
+.main-img {
+  width: 100%;
+  height: 880px;
+  background-image: url(file:///Users/emyuu/reen/img/main/keyvisual.jpg);
+}
+
+.main-box {
+  padding-top: 300px;
+}
+
+.main-title {
+  width: 100%;
+  height: 78px;
+  text-align: center;
+}
+
+.main-title-text {
+  color: #fff;
+  font-size: 78px;
+}
+
+.main-text {
+  width: 1000px;
+  height: 50px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  line-height: 1.5;
+  color: #a3b1bf;
+  font-size: 24px;
+}
+
+.main-btn {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  background: #00bc9c;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  border-bottom: solid 4px #00a085;
+  margin-top: 92px;
+}
+
+.main-btn:active {
+  background: #00a085;
+}
+
+/*ここからsection*/
+
+.sec-title {
+  width: 800px;
+  height: 44px;
+  padding-top: 120px;
+}
+
+.sec-title-text {
+  font-size: 44px;
+}
+
+.sec-text {
+  color: #506a85;
+  text-align: center;
+}
+
+.sec-side {
+  width: 800px;
+  height: 80px;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+.sec-side-text {
+  font-size: 22px;
+}
+
+.sec-inner {
+  width: 1170px;
+  height: 170px;
+  display: table;
+  margin-top: 70px;
+  padding-bottom: 120px;
+  box-sizing: border-box;
+}
+
+.sec-box {
+  width: 400px;
+  height: 170px;
+  display: table-cell;
+}
+
+.sec-contents {
+  width: 300px;
+  height: 170px;
+}
+
+.contents-title {
+  width: 300px;
+  height: 26px;
+  font-size: 26px;
+  color: #506a85;
+}
+
+
+.contents-text {
+  width: 300px;
+  height: 124px;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #506a85;
+  line-height: 1.5;
+}
+
+/*ここからfig*/
+
+.fig-img-box {
+  height: 490px;
+}
+
+.fig-img {
+  width: 570px;
+  height: 390px;
+  position: relative;
+}
+
+.fig-hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(0,188,156,0.9);
+  transition: all 0.3s ease;
+}
+
+.caption {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.fig-padd-big {
+  padding-top: 182px;
+}
+
+.fig-img:hover .fig-hover {
+  opacity: 1;
+}
+
+.fig-img-text {
+  width: 570px;
+  height: 100px;
+  background-color: #fff;
+}
+
+.fig-text {
+  color: #506a85;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.is-big {
+  padding-top: 30px;
+  height: 50%;
+  font-size: 20px;
+}
+
+.is-big:hover {
+  color: #00bc9c;
+}
+
+.is-small {
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.fig-foot {
+  height: 185px;
+  padding: 80px 0 120px;
+}
+
+.fig-foot-hover {
+  width: 270px;
+  height: 185px;
+  position: relative;
+  margin-left: 30px;
+}
+
+.fig-padd-small {
+  padding-top: 72.5px;
+}
+
+.fig-foot-hover:hover .fig-hover {
+  opacity: 1;
+}
+
+.fig-foot-hover:first-child {
+  margin-left: 0;
+}
+
+/*ここからarticle*/
+
+.article-btn-box {
+  padding: 80px 0 150px;
+  box-sizing: border-box;
+}
+
+.article-btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  background: #00bc9c;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  border-bottom: solid 4px #00a085;
+}
+
+.article-btn:active {
+  background: #00a085;
+}
+
+/*ここからfooter*/
+
+.footer-contents {
+  width: 262.5px;
+  padding: 75px 40px 75px 0;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.footer-contents:last-child {
+  padding-right: 0;
+}
+
+.footer-text {
+  color: #a3b1bf;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+.footer-ander-text {
+  margin-top: 20px;
+}
+
+.footer-img-box {
+  width: 260px;
+  height: 170px;
+}
+
+.footer-img {
+  width: 125px;
+  height: 85px;
+  display: inline-block;
+  position: relative;
+}
+
+.footer-hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(0,188,156,0.9);
+  transition: all 0.3s ease;
+  padding-top: 34.5px;
+  box-sizing: border-box;
+}
+
+.footer-img:hover .footer-hover {
+  opacity: 1;
+}
+
+.footer-access {
+  width: 260px;
+  height: 14px;
+  padding-bottom: 10px;
+}
+
+.footer-map {
+  float: left;
+  background: url(file:///Users/emyuu/reen/img/footer/icon-address-off.png)no-repeat;
+}
+
+.footer-map a {
+  background: url(file:///Users/emyuu/reen/img/footer/icon-address-off.png)no-repeat;
+}
+
+.footer-map a:hover {
+  background: url(file:///Users/emyuu/reen/img/footer/icon-address-on.png);
+}
+
+.footer-tel {
+  float: left;
+  background: url(file:///Users/emyuu/reen/img/footer/icon-tel-off.png)no-repeat;
+}
+
+.footer-tel a {
+  background: url(file:///Users/emyuu/reen/img/footer/icon-tel-off.png)no-repeat;
+}
+
+.footer-tel a:hover {
+  background: url(file:///Users/emyuu/reen/img/footer/icon-tel-on.png);
+}
+
+.footer-mail {
+  float: left;
+  background: url(file:///Users/emyuu/reen/img/footer/icon-mail-off.png)no-repeat;
+}
+
+.footer-mail a {
+  background: url(file:///Users/emyuu/reen/img/footer/icon-mail-off.png)no-repeat;
+}
+
+.footer-mail a:hover {
+  background: url(file:///Users/emyuu/reen/img/footer/icon-mail-on.png);
+}
+
+.footer-access-text {
+  color: #a3b1bf;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.footer-access-text:hover {
+  color: #00bc9c;
+}
+
+.footer-localbox {
+  width: 260px;
+  height: 20px;
+  background: #354859;
+}
+
+.footer-form {
+  width: 260px;
+  height: 42px;
+  background: #a3b1bf;
+  border-radius: 5px;
+}
+
+.footer-input-init {
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.footer-input {
+  padding: 13px;
+  border-radius: 3px;
+  background-color: #a3b1bf;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.footer-btn {
+  width: 100px;
+  height: 36px;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #00bc9c;
+  color: #fff;
+  text-align: center;
+  line-height: 12px;
+  cursor: pointer;
+  border-bottom: solid 4px #00a085;
+  padding-top: 10px;
+  box-sizing: border-box;
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
+.footer-btn:active {
+  background: #00a085;
+}
+
+.footer-ander-box {
+  width: 100%;
+  height: 74px;
+  background-color: #2e3d4c;
+  display: inline-block;
+}
+
+.f-home:hover {
+  color: #00bc9c;
+}
+
+.f-portfolio:hover {
+  color: #00bc9c;
+}
+
+.f-blog:hover {
+  color: #00bc9c;
+}
+
+.f-about:hover {
+  color: #00bc9c;
+}
+
+.f-services:hover {
+  color: #00bc9c;
+}
+
+.f-contact:hover {
+  color: #00bc9c;
+}
