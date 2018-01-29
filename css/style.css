@@ -1,61 +1,22 @@
-.wrapper {
-  width: 1920px;
-}
-
 header {
-  width: 100%;
-  height: 40px;
-  background: #f5f7fa;
-}
-
-nav {
-  width: 100%;
-  height: 100px;
-  font-size: 15px;
+  background-color: #f5f7fa;
 }
 
 main {
-  width: 100%;
-  height: 880px;
-  background-color: #354859;
-}
-
-section {
-  width: 100%;
-  background-color: #fff;
-}
-
-figure {
-  width: 100%;
-  background-color: #f5f7fa;;
-}
-
-article {
-  width: 100%;
   background-color: #fff;
 }
 
 footer {
-  width: 100%;
-  height: 459px;
   background-color: #354859;
 }
 
-.inner-box {
+.inner {
   width: 1170px;
-}
-
-.header-box {
-  background-color: #f5f7fa;
-}
-
-.header-box-left {
-  padding: 12px 0;
-  box-sizing: border-box;
-}
-
-.center {
   margin: 0 auto;
+}
+
+.ad-box {
+  height: 40px;
 }
 
 .left {
@@ -69,14 +30,12 @@ footer {
 .header-text {
   font-size: 12px;
   color: #506a85;
-  display: inline-block;
-  padding: 0 26px 0 0;
+  padding: 14px 26px 0 10px;
 }
 
 .header-icon-left {
   width: 12px;
-  height: 12px;
-  display: block;
+  height: 40px;
 }
 
 .header-icon-right {
@@ -90,29 +49,27 @@ footer {
 }
 
 .mail {
-  display: inline-block;
-  background: url(../img/header/icon-mail-off.png)no-repeat;
+  background-image: url(../img/header/icon-mail-off.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.mail a {
-  background: url(../img/header/icon-mail-off.png)no-repeat;
-}
-
-.mail a:hover {
+.mail:hover {
   background-image: url(../img/header/icon-mail-on.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .phone {
-  display: inline-block;
-  background: url(../img/header/icon-tel-off.png)no-repeat;
+  background-image: url(../img/header/icon-tel-off.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.phone a {
-  background: url(../img/header/icon-tel-off.png)no-repeat;
-}
-
-.phone a:hover {
+.phone:hover {
   background-image: url(../img/header/icon-tel-on.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .facebook {
@@ -206,6 +163,11 @@ footer {
 
 /*ここから nav */
 
+.nav-contents {
+  height: 100px;
+  background-color: #fff;
+}
+
 .nav-center {
   width: 760px;
   height: 100px;
@@ -257,39 +219,27 @@ footer {
 
 /*ここからmain*/
 
-.main-img {
-  width: 100%;
-  height: 880px;
+.keyvisual {
+  padding: 300px 0;
+  box-sizing: border-box;
   background-image: url(../img/main/keyvisual.jpg);
-}
-
-.main-box {
-  padding-top: 300px;
-}
-
-.main-title {
-  width: 100%;
-  height: 78px;
-  text-align: center;
 }
 
 .main-title-text {
   color: #fff;
   font-size: 78px;
+  text-align: center;
 }
 
 .main-text {
-  width: 1000px;
-  height: 50px;
+  margin-top: 26px;
   text-align: center;
-  margin: 0 auto;
-  margin-top: 20px;
   line-height: 1.5;
   color: #a3b1bf;
   font-size: 24px;
 }
 
-.main-btn {
+.key-btn {
   width: 300px;
   height: 50px;
   border-radius: 5px;
@@ -300,22 +250,18 @@ footer {
   line-height: 50px;
   cursor: pointer;
   border-bottom: solid 4px #00a085;
-  margin-top: 92px;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
-.main-btn:active {
+.key-btn:active {
   background: #00a085;
 }
 
 /*ここからsection*/
 
 .sec-title {
-  width: 800px;
-  height: 44px;
   padding-top: 120px;
-}
-
-.sec-title-text {
   font-size: 44px;
 }
 
@@ -325,19 +271,12 @@ footer {
 }
 
 .sec-side {
-  width: 800px;
-  height: 80px;
+  font-size: 22px;
   margin-top: 30px;
   line-height: 1.5;
 }
 
-.sec-side-text {
-  font-size: 22px;
-}
-
-.sec-inner {
-  width: 1170px;
-  height: 170px;
+.container {
   display: table;
   margin-top: 70px;
   padding-bottom: 120px;
@@ -356,16 +295,11 @@ footer {
 }
 
 .contents-title {
-  width: 300px;
-  height: 26px;
   font-size: 26px;
   color: #506a85;
 }
 
-
 .contents-text {
-  width: 300px;
-  height: 124px;
   margin-top: 20px;
   font-size: 16px;
   color: #506a85;
@@ -374,7 +308,12 @@ footer {
 
 /*ここからfig*/
 
+.work {
+  background-color: #f5f7fa;
+}
+
 .fig-img-box {
+  margin-top: 70px;
   height: 490px;
 }
 
@@ -460,14 +399,12 @@ footer {
   margin-left: 0;
 }
 
-/*ここからarticle*/
-
-.article-btn-box {
+.main-btn-box {
   padding: 80px 0 150px;
   box-sizing: border-box;
 }
 
-.article-btn {
+.main-btn {
   width: 200px;
   height: 50px;
   border-radius: 5px;
@@ -478,9 +415,10 @@ footer {
   line-height: 50px;
   cursor: pointer;
   border-bottom: solid 4px #00a085;
+  margin: 0 auto;
 }
 
-.article-btn:active {
+.main-btn:active {
   background: #00a085;
 }
 
@@ -505,7 +443,7 @@ footer {
   color: #a3b1bf;
   font-size: 14px;
   line-height: 1.5;
-  margin-top: 30px;
+  margin: 30px 0 20px;
 }
 
 .footer-ander-text {
@@ -547,43 +485,39 @@ footer {
   padding-bottom: 10px;
 }
 
+.footer-icon {
+  width: 13px;
+  height: 13px;
+}
+
 .footer-map {
-  float: left;
-  background: url(../img/footer/icon-address-off.png)no-repeat;
+  background: url(../img/footer/icon-address-off.png);
+  background-repeat: no-repeat;
 }
 
-.footer-map a {
-  background: url(../img/footer/icon-address-off.png)no-repeat;
-}
-
-.footer-map a:hover {
+.footer-map:hover {
   background: url(../img/footer/icon-address-on.png);
+  background-repeat: no-repeat;
 }
 
 .footer-tel {
-  float: left;
-  background: url(../img/footer/icon-tel-off.png)no-repeat;
+  background: url(../img/footer/icon-tel-off.png);
+  background-repeat: no-repeat;
 }
 
-.footer-tel a {
-  background: url(../img/footer/icon-tel-off.png)no-repeat;
-}
-
-.footer-tel a:hover {
+.footer-tel:hover {
   background: url(../img/footer/icon-tel-on.png);
+  background-repeat: no-repeat;
 }
 
 .footer-mail {
-  float: left;
-  background: url(../img/footer/icon-mail-off.png)no-repeat;
+  background: url(../img/footer/icon-mail-off.png);
+  background-repeat: no-repeat;
 }
 
-.footer-mail a {
-  background: url(../img/footer/icon-mail-off.png)no-repeat;
-}
-
-.footer-mail a:hover {
+.footer-mail:hover {
   background: url(../img/footer/icon-mail-on.png);
+  background-repeat: no-repeat;
 }
 
 .footer-access-text {
@@ -594,12 +528,6 @@ footer {
 
 .footer-access-text:hover {
   color: #00bc9c;
-}
-
-.footer-localbox {
-  width: 260px;
-  height: 20px;
-  background: #354859;
 }
 
 .footer-form {
@@ -651,7 +579,7 @@ footer {
   background: #00a085;
 }
 
-.footer-ander-box {
+.footer-anderber {
   width: 100%;
   height: 74px;
   background-color: #2e3d4c;
