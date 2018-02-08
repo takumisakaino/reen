@@ -62,8 +62,6 @@ footer {
 
 .mail:hover {
   background-image: url(../img/header/icon-mail-on.png);
-  background-repeat: no-repeat;
-  background-position: left;
 }
 
 .phone {
@@ -74,8 +72,6 @@ footer {
 
 .phone:hover {
   background-image: url(../img/header/icon-tel-on.png);
-  background-repeat: no-repeat;
-  background-position: left;
 }
 
 .facebook {
@@ -86,8 +82,6 @@ footer {
 
 .facebook:hover {
   background-image: url(../img/header/icon-facebook-on.png);
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: #4668b3;
 }
 
@@ -99,8 +93,6 @@ footer {
 
 .google:hover {
   background-image: url(../img/header/icon-google-on.png);
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: #de5745;
 }
 
@@ -112,8 +104,6 @@ footer {
 
 .twitter:hover {
   background-image: url(../img/header/icon-twitter-on.png);
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: #2fbbed;
 }
 
@@ -125,8 +115,6 @@ footer {
 
 .pint:hover {
   background-image: url(../img/header/icon-pinterest-on.png);
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: #d94348;
 }
 
@@ -138,8 +126,6 @@ footer {
 
 .behance:hover {
   background-image: url(../img/header/icon-behance-on.png);
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: #3079ff;
 }
 
@@ -151,8 +137,6 @@ footer {
 
 .dribbble:hover {
   background-image: url(../img/header/icon-dribbble-on.png);
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: #eb6397;
 }
 
@@ -348,8 +332,12 @@ footer {
   padding-top: 182px;
 }
 
-.fig-foot >li:hover .fig-hover {
+.workbox:hover .fig-hover {
   opacity: 1;
+}
+
+.workbox:hover .is-big{
+  color: #00bc9c;
 }
 
 .fig-img-text {
@@ -368,10 +356,6 @@ footer {
   padding-top: 30px;
   height: 50%;
   font-size: 20px;
-}
-
-.is-big:hover {
-  color: #00bc9c;
 }
 
 .is-small {
@@ -395,11 +379,11 @@ footer {
   padding-top: 72.5px;
 }
 
-.fig-img:hover .fig-hover {
+.fig-foot > li:hover .fig-hover {
   opacity: 1;
 }
 
-.fig-foot >li:first-child {
+.fig-foot > li:first-child {
   margin-left: 0;
 }
 
@@ -483,49 +467,43 @@ footer {
   opacity: 1;
 }
 
-.footer-access > li {
-  width: 260px;
-  height: 14px;
-  padding-bottom: 10px;
-}
-
-.f-map {
-  background: url(../img/footer/icon-address-off.png);
-  background-repeat: no-repeat;
-}
-
-.f-map:hover {
-  background: url(../img/footer/icon-address-on.png);
-  background-repeat: no-repeat;
-}
-
-.f-phone {
-  background: url(../img/footer/icon-tel-off.png);
-  background-repeat: no-repeat;
-}
-
-.f-phone:hover {
-  background: url(../img/footer/icon-tel-on.png);
-  background-repeat: no-repeat;
-}
-
-.f-mail {
-  background: url(../img/footer/icon-mail-off.png);
-  background-repeat: no-repeat;
-}
-
-.f-mail:hover {
-  background: url(../img/footer/icon-mail-on.png);
-  background-repeat: no-repeat;
-}
-
-.footer-access-text {
+.footer-icon {
   color: #a3b1bf;
   font-size: 14px;
-  padding-left: 20px;
+  padding:5px 20px;
 }
 
-.footer-access-text:hover {
+.footer-map {
+  background-image: url(../img/footer/icon-address-off.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.footer-map:hover {
+  background-image: url(../img/footer/icon-address-on.png);
+}
+
+.footer-phone {
+  background-image: url(../img/footer/icon-tel-off.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.footer-phone:hover {
+  background-image: url(../img/footer/icon-tel-on.png);
+}
+
+.footer-mail {
+  background-image: url(../img/footer/icon-mail-off.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.footer-mail:hover {
+  background-image: url(../img/footer/icon-mail-on.png);
+}
+
+.footer-icon:hover {
   color: #00bc9c;
 }
 
