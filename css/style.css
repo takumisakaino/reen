@@ -15,7 +15,7 @@ footer {
   margin: 0 auto;
 }
 
-.ad-box {
+.header-top {
   height: 40px;
 }
 
@@ -27,20 +27,26 @@ footer {
   float: right;
 }
 
+.ad-box {
+  width: 275px;
+  height: 40px;
+}
+
 .header-text {
   font-size: 12px;
   color: #506a85;
-  padding: 14px 26px 0 10px;
+  padding: 14px 26px 14px 20px;
 }
 
-.header-icon-left {
-  width: 12px;
+.icon-box {
+  width: 260px;
   height: 40px;
 }
 
-.header-icon-right {
+.icon-box > li {
   width: 40px;
   height: 40px;
+  display: inline-block;
 }
 
 .header-icon-posi {
@@ -51,25 +57,25 @@ footer {
 .mail {
   background-image: url(../img/header/icon-mail-off.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
 }
 
 .mail:hover {
   background-image: url(../img/header/icon-mail-on.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
 }
 
 .phone {
   background-image: url(../img/header/icon-tel-off.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
 }
 
 .phone:hover {
   background-image: url(../img/header/icon-tel-on.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
 }
 
 .facebook {
@@ -163,21 +169,28 @@ footer {
 
 /*ここから nav */
 
-.nav-contents {
+.header-bottom {
   height: 100px;
   background-color: #fff;
 }
 
-.nav-center {
-  width: 760px;
+.nav-box {
+  width: 1170px;
   height: 100px;
   display: table;
-  margin-right: 205px;
+  background-image: url(../img/header/logo.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
-.nav-img {
-  padding: 30px 0;
+.nav-box > li {
+  height: 100px;
+  color: #506a85;
+  font-size: 15px;
+  padding: 42.5px 22px;
   box-sizing: border-box;
+  display: table-cell;
+  text-align: center;
 }
 
 .home {
@@ -204,16 +217,7 @@ footer {
   width: 71px;
 }
 
-.nav-text {
-  height: 100px;
-  color: #506a85;
-  font-size: 15px;
-  padding: 42.5px 22px;
-  box-sizing: border-box;
-  display: table-cell;
-}
-
-.nav-text:hover {
+.nav-box > li:hover {
   color: #00bc9c;
 }
 
@@ -283,7 +287,7 @@ footer {
   box-sizing: border-box;
 }
 
-.sec-box {
+.container > li {
   width: 400px;
   height: 170px;
   display: table-cell;
@@ -344,7 +348,7 @@ footer {
   padding-top: 182px;
 }
 
-.fig-img:hover .fig-hover {
+.fig-foot >li:hover .fig-hover {
   opacity: 1;
 }
 
@@ -380,7 +384,7 @@ footer {
   padding: 80px 0 120px;
 }
 
-.fig-foot-hover {
+.fig-foot > li {
   width: 270px;
   height: 185px;
   position: relative;
@@ -391,11 +395,11 @@ footer {
   padding-top: 72.5px;
 }
 
-.fig-foot-hover:hover .fig-hover {
+.fig-img:hover .fig-hover {
   opacity: 1;
 }
 
-.fig-foot-hover:first-child {
+.fig-foot >li:first-child {
   margin-left: 0;
 }
 
@@ -424,9 +428,14 @@ footer {
 
 /*ここからfooter*/
 
-.footer-contents {
+.footer-top > li {
   width: 262.5px;
   padding: 75px 40px 75px 0;
+  float: left;
+}
+
+.footer-top > li:last-child {
+  padding-right: 0;
 }
 
 .footer-title {
@@ -434,11 +443,6 @@ footer {
   font-size: 16px;
   margin-bottom: 30px;
 }
-
-.footer-contents:last-child {
-  padding-right: 0;
-}
-
 .footer-text {
   color: #a3b1bf;
   font-size: 14px;
@@ -479,43 +483,38 @@ footer {
   opacity: 1;
 }
 
-.footer-access {
+.footer-access > li {
   width: 260px;
   height: 14px;
   padding-bottom: 10px;
 }
 
-.footer-icon {
-  width: 13px;
-  height: 13px;
-}
-
-.footer-map {
+.f-map {
   background: url(../img/footer/icon-address-off.png);
   background-repeat: no-repeat;
 }
 
-.footer-map:hover {
+.f-map:hover {
   background: url(../img/footer/icon-address-on.png);
   background-repeat: no-repeat;
 }
 
-.footer-tel {
+.f-phone {
   background: url(../img/footer/icon-tel-off.png);
   background-repeat: no-repeat;
 }
 
-.footer-tel:hover {
+.f-phone:hover {
   background: url(../img/footer/icon-tel-on.png);
   background-repeat: no-repeat;
 }
 
-.footer-mail {
+.f-mail {
   background: url(../img/footer/icon-mail-off.png);
   background-repeat: no-repeat;
 }
 
-.footer-mail:hover {
+.f-mail:hover {
   background: url(../img/footer/icon-mail-on.png);
   background-repeat: no-repeat;
 }
@@ -523,7 +522,7 @@ footer {
 .footer-access-text {
   color: #a3b1bf;
   font-size: 14px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .footer-access-text:hover {
@@ -579,10 +578,18 @@ footer {
   background: #00a085;
 }
 
-.footer-anderber {
+.footer-bottom {
   width: 100%;
   height: 74px;
   background-color: #2e3d4c;
+  display: inline-block;
+}
+
+.footer-bottom-right > li {
+  color: #a3b1bf;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 30px 0 20px;
   display: inline-block;
 }
 
